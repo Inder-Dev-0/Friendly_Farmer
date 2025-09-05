@@ -9,6 +9,8 @@ import ToolsRentalPage from './pages/ToolsRentalPage.jsx';
 import SuppliesPage from './pages/SuppliesPage.jsx';
 import PartsPage from './pages/PartsPage.jsx';
 import CartPage from './pages/CartPage.jsx';
+import CropListingPage from './pages/CropListingPage.jsx';
+import FarmerProfile from './pages/FarmerProfile.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,8 @@ const router = createBrowserRouter([
       { path: "/tools", element: <ToolsRentalPage /> },
       { path: "/supplies", element: <SuppliesPage /> },
       { path: "/parts", element: <PartsPage /> },
+      { path: "/crops", element: <CropListingPage /> },
+      { path: "/profile", element: <FarmerProfile /> },
     ]
   },
 ]);

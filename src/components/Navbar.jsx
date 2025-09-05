@@ -4,7 +4,7 @@ import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
-  const [username, setUsername] = useState("");
+  const [username, setUsername] = useState("Raj");
   const [inputName, setInputName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -49,9 +49,9 @@ export default function Navbar() {
           <a href="/customer-support" className="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded-md">
             Customer Support
           </a>
-          {username ? <div className="bg-green-600 text-white font-medium px-4 py-2 rounded-md">
+          {username ? <a href="/profile" className="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded-md">
             {username}
-          </div> : <FiUser onClick={() => setIsOpen(true)} className="h-6 w-6 text-gray-700 cursor-pointer" />}
+          </a> : <FiUser onClick={() => setIsOpen(true)} className="h-6 w-6 text-gray-700 cursor-pointer" />}
           <a href="/cart"><FiShoppingCart className="h-6 w-6 text-gray-700 cursor-pointer" /></a>
         </div>
       </div>

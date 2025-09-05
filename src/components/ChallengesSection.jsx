@@ -31,9 +31,9 @@ export default function ChallengesSection() {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition">
+        <a href="/crops" className="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition">
           Shop Best Sellers
-        </button>
+        </a>
       </div>
     </section>
   );

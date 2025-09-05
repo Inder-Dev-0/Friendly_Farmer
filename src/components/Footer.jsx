@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Newsletter */}
         <div>
-          <h3 className="font-bold mb-4">FARMERS FRIEND NEWSLETTER</h3>
+          <h3 className="font-bold mb-4">FRIENDLY_FARMER NEWSLETTER</h3>
           <p className="text-sm mb-4">
             Join our occasional newsletter for product launches, growing tips, and announcements:
           </p>

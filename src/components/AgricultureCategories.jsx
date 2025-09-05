@@ -53,7 +53,7 @@ export default function AgricultureCategories() {
                   href={cat.link}
                   className="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-md font-medium transition"
                 >
-                  Shop Now
+                  Rent Now
                 </a>
               </div>
             </div>
