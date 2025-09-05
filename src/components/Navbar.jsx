@@ -4,7 +4,7 @@ import { FiSearch, FiUser, FiShoppingCart } from "react-icons/fi";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
-  const [username, setUsername] = useState("Raj");
+  const [username, setUsername] = useState("");
   const [inputName, setInputName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
