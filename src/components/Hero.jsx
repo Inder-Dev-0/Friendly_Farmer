@@ -2,50 +2,50 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
   const slides = [
-    {
-      id: 1,
-      image: "https://about.oceanstatejoblot.com/wp-content/uploads/2024/02/SF_HowDoGreenhousesWork_Hero.webp",
-      title: "Less weeding... More growing!",
-      subtitle:
-        "Innovative weed-free growing with multiple pre-burned patterns in a variety of sizes.",
-      button: "Shop Quick-Plant Fabric",
-    },
-    {
-      id: 2,
-      image: "https://images.unsplash.com/uploads/1411901100260f56b39b9/ab70b250?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "The Haven High Tunnel",
-      subtitle: "Tunnel growing—reimagined. Roll-up sides, storm damage warranty, all materials, and free delivery.",
-      button: "Haven High Tunnel",
-    },
-    {
-      id: 3,
-      image: "https://hartley-botanic.co.uk//wp-content/uploads/2019/12/HartleyBotanic-Malvern2018-Highgrow-3155.jpg",
-      title: "The Guardian High Tunnel",
-      subtitle: "Ultimate plant protection with room to grow! 6.5-ft side walls for full and easy access.",
-      button: "Guardian High Tunnel",
-    },
-    {
-      id: 4,
-      image: "https://www.alitex.co.uk/wp-content/uploads/2024/09/Clivede-greenhouse-4-828x570.jpg",
-      title: "Level Up your Tunnel Growing!",
-      subtitle: "Introducing Caterpillar Tunnel Max with 50% more growing space, increased side wall height, and stronger metal.",
-      button: "Order Caterpillar Tunnel Max",
-    },
-    {
-      id: 5,
-      image: "https://www.agrivi.com/wp-content/uploads/2021/05/Greenhouse-Farming-Exceeds-Weather-Limitations-1200x565.jpg",
-      title: "New, Durable & Simple End Wall",
-      subtitle: "Increase the lifespan and strength of your end wall & tunnel!",
-      button: "Shop Framed Double Zipper End Wall",
-    },
-    {
-      id: 6,
-      image: "https://images.unsplash.com/photo-1623136299195-570a06bdae6b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JlZW5ob3VzZXxlbnwwfHwwfHx8MA%3D%3D",
-      title: "Innovative tools and supplies for small farms.",
-      subtitle: "Equipping, edu­cating, and inspiring grow­ers worldwide.",
-      button: "Shop Best Sellers",
-    },
-  ];
+  {
+    id: 1,
+    image: "https://media.licdn.com/dms/image/v2/C5112AQETMaqennf4Ng/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1559983513205?e=2147483647&v=beta&t=zFMxnZayu_YWk5vaYwLCb-84Daweu2Te4wNjiQ0RNf0",
+    title: "Blockchain Ledger",
+    subtitle: "Transparent, tamper-proof agri-supply chain records with trust and traceability.",
+    button: "Learn More",
+  },
+  {
+    id: 2,
+    image: "https://www.agrifabrix.in/static/media/TraceFabriX.0cf13ed7665fe771890f.jpg",
+    title: "Digital Quality Certificates",
+    subtitle: "Moisture %, grading, FSSAI standards – verified and stored on-chain.",
+    button: "See How It Works",
+  },
+  {
+    id: 3,
+    image: "https://www.statcan.gc.ca/o1/sites/default/files/2023-07/Farm_Direct_Sales_Article1366x768.jpg",
+    title: "Direct Farmer-to-Buyer Sales",
+    subtitle: "Empowering B2B & B2C with fair pricing, eliminating middlemen exploitation.",
+    button: "Explore Marketplace",
+  },
+  {
+    id: 4,
+    image: "https://www.affordableschools.net/wp-content/uploads/2020/04/Specialties-in-Agriculture-Science-scaled-e1586282107962.jpg",
+    title: "Regional Specialization",
+    subtitle: "Onions from Nashik, Wheat from Punjab, Rice from UP – identity preserved.",
+    button: "View Regions",
+  },
+  {
+    id: 5,
+    image: "https://agrichain.com/wp-content/uploads/2025/03/03-2025-The-Future-of-AgTech.png",
+    title: "Solving Supply Chain Challenges",
+    subtitle: "No more middlemen, opacity, or distressed pricing – farmers get their fair share.",
+    button: "Understand the Problem",
+  },
+  {
+    id: 6,
+    image: "https://www.euractiv.com/wp-content/uploads/sites/2/2024/12/GettyImages-1318237749.jpg",
+    title: "Future of AgriTech",
+    subtitle: "AI bargaining, QR-traceability, farmer credit scoring, and multilingual apps.",
+    button: "Discover Innovations",
+  },
+];
+
 
   const [current, setCurrent] = useState(0);
 

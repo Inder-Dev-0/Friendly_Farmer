@@ -3,39 +3,40 @@ import { FiArrowRight } from "react-icons/fi";
 const products = [
   {
     id: 1,
-    category: "TUNNELS",
-    title: "Gothic Caterpillar Tunnel",
+    category: "EQUIPMENT",
+    title: "Solar-Powered Water Pump",
     description:
-      "Easy-to-assemble and affordable year-round protection for your veggies, flowers, fruit, or animals!",
-    image: "https://cdn.sanity.io/images/0yukpfvl/production/18eee89feac93812ed30040f7f672ebbb0141435-3024x3932.jpg",
-    badge: "2025 REFRESH",
+      "Affordable, portable solar pump for irrigation—ideal for small farms with limited electricity access.",
+    image: "https://icdn.tradew.com/file/202103/1574799/jpg/7793239.jpg?x-oss-process=image/quality,Q_90",
+    badge: "INNOVATION 2025",
   },
   {
     id: 2,
-    category: "TUNNELS",
-    title: "The Haven High Tunnel",
+    category: "EQUIPMENT",
+    title: "Mini Seed Drill",
     description:
-      "Unparalleled protection for your plants. Peace of mind for you. Plus roll up sides!",
-    image: "https://cdn.shopify.com/s/files/1/1338/7937/files/CaterpillarTunnel_480x480.jpg?v=1706217797",
-    badge: "2025 REFRESH",
+      "Compact seed drill designed for precise planting and reduced seed wastage, increasing yield efficiency.",
+    image: "https://lirp.cdn-website.com/2adce84d/dms3rep/multi/opt/Front%2Bdisc%2B16-2-640w.jpg",
+    badge: "FARM READY",
   },
   {
     id: 3,
-    category: "COVERINGS",
-    title: "Quick Plant Fabric",
+    category: "EQUIPMENT",
+    title: "Handheld Power Weeder",
     description:
-      "Revolutionary weed-free growing with pre-burned patterns in UV stabilized landscape fabric that will last for years!",
-    image: "https://cdn.shopify.com/s/files/1/0750/6737/products/LandscapeFabricwithHoles-7copy.jpg?v=1710877628",
+      "Lightweight, fuel-efficient power weeder that reduces labor and time spent on weed management.",
+    image: "https://s.alicdn.com/@sc04/kf/Hbc407e6b7b78479b89922b486a87effet.jpg",
   },
   {
     id: 4,
-    category: "TUNNELS",
-    title: "Guardian High Tunnel",
+    category: "EQUIPMENT",
+    title: "Low-Cost Drip Irrigation Kit",
     description:
-      "The ultimate protector for your plants! 21-ft wide plus 6.5-ft roll-up sides for efficient use of every square inch!",
-    image: "https://fullbloomgreenhouse.com/wp-content/uploads/2023/11/greenhouse-guardian-inside.jpg",
-  },
+      "DIY drip irrigation kit for water-efficient farming, designed to save up to 60% water usage.",
+    image: "https://sc04.alicdn.com/kf/H8247eaa12a2f4004bb2328aecff712d8s.jpg",
+  }
 ];
+
 
 export default function ProductSection() {
   return (

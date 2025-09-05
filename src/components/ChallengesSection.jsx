@@ -1,14 +1,14 @@
 import { FiCheckCircle } from "react-icons/fi";
 
 const challenges = [
-  "Endless weeds",
-  "Complicated and intimidating irrigation systems",
-  "Lack of affordable greenhouse space",
-  "Long hours harvesting salad greens",
-  "Cumbersome trellising systems",
-  "Labor intensive microgreens harvesting",
-  "Greenhouse getting too hot in the summer",
-  "Losing plants to surprise early frosts",
+  "Opaque supply chains dominated by middlemen who exploit farmers with low prices",
+  "Lack of real-time price discovery and market transparency for farmers",
+  "Smallholder farmers stuck in cycles of debt and limited bargaining power",
+  "Fragmented digital platforms with limited reach and siloed solutions",
+  "Low trust in centralized platforms due to lack of verifiable traceability",
+  "High dependence on intermediaries for logistics, warehousing, and credit",
+  "Regulatory restrictions from APMC mandis and compliance burdens (FSSAI, GST)",
+  "Limited farmer-friendly tech interfaces (language, literacy, accessibility)",
 ];
 
 export default function ChallengesSection() {
